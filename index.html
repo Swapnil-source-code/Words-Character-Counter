@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Words-Characters Counter</title>
+</head>
+<body>
+
+<div class="container">
+  <h1 class="heading">Words Counter</h1>
+  <textarea name="inputBox" id="inputBox" rows="20" cols="30" placeholder="Enter your text" oninput="wordsCounter();"></textarea>
+
+  <div class="outputBox">
+    <div>
+      <label for="words">Total Words :-</label>
+      <input type="button" value="0" id="words">
+    </div>
+    <div>
+      <label for="char">Total Characters :-</label>
+      <input type="button" value="0" id="char">
+    </div>
+    <div>
+      <label for="alphabets">Total Alphabets :-</label>
+      <input type="button" value="0" id="alphabets">
+    </div>
+    <div>
+      <label for="number">Total Number :-</label>
+      <input type="button" value="0" id="number">
+    </div>
+  </div>
+
+</div>
+
+
+  <script src="./js/wordcharactercount-script.js"></script>
+</body>
+</html>
